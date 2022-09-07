@@ -124,11 +124,11 @@
         </div>
         <!-- /cascade-wrapper -->
         <div class="button-col">
-          <div class="button" id="top-left"><a href="">01</a></div>
-          <div class="button" id="bottom-left"><a href="">02</a></div>
+          <div class="button" id="top-left"><a href="">01456-98</a></div>
+          <div class="button" id="bottom-left"><a href="">021456-98</a></div>
         </div>
         <div class="button-col">
-          <div class="button" id="top-right"><a href="">03</a></div>
+          <div class="button" id="top-right"><a href="">031456-98</a></div>
           <div class="button" id="bottom-right">
             <PersonalRouter :route="route" :buttonText="buttonText" />
           </div>
