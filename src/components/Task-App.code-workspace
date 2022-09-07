@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../LCARS"
+		},
+		{
+			"path": "../../../IRONHACK/Labs/lab-to-do-app"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LCARS"
+	}
+}
