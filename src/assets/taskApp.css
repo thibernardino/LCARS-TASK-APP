@@ -997,7 +997,8 @@ a:hover {
   display: flex;
   position: relative;
   margin: auto;
-  margin-left: 15px;
+  margin-top: 15px;
+  margin-left: auto;
   overflow: visible;
   border-radius: 14px;
   height: 32px;

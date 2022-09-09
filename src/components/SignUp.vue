@@ -160,6 +160,36 @@
               required
             />
           </div>
+
+          <div class="form-input-up">
+            <label for="name" class="input-field-label-up"
+              ><a>Name</a></label
+            >
+            <input
+              type="name"
+              class="input-field-up"
+              placeholder="NAME"
+              id="name"
+              v-model="name"
+              required
+            />
+          </div>
+
+          <div class="form-input-up">
+            <label for="surname" class="input-field-label-up"
+              ><a>Surname</a></label
+            >
+            <input
+              type="surname"
+              class="input-field-up"
+              placeholder="SURNAME"
+              id="SURNAME"
+              v-model="surname"
+              required
+            />
+          </div>
+
+
           <div class="form-input-up">
             <label for="password" class="input-field-label-up"
               ><a>Security</a></label

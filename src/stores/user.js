@@ -14,7 +14,6 @@ export const useUserStore = defineStore("user", {
       this.user = user;
     },
 
-    //Fetch to signup
     async signUp(email, password) {
       const { user, error } = await supabase.auth.signUp({
         email: email,
@@ -26,10 +25,10 @@ export const useUserStore = defineStore("user", {
         console.log(this.user);
       }
     },
-    //Fetch to signin
+
     async signIn(email, password) {
       const { user, error } = await supabase.auth.signIn({
-        email: email, 
+        email: email,
         password: password,
       },
       {
@@ -41,6 +40,7 @@ export const useUserStore = defineStore("user", {
         console.log(this.user);
       }
     },
+    
     //Fetch to signout
     async signOut(){
       const {error} = await supabase.auth.signOut();

@@ -1,15 +1,28 @@
 <template>
-    <Nav />
-    <Footer />
+  <Nav />
+  <div class="flexbox">
+    <div class="col">
+      <div class="lcars-text-bar the-end">
+        <span>Add task</span>
+      </div>
+    </div>
+    <div class="col">
+        <div class="lcars-text-bar the-end">
+        <span>Tasks</span>
+      </div>
+    </div>
+  </div>
+
+  <Footer />
 </template>
 
 <script setup>
-import Nav from '../components/Nav.vue';
-import Footer from '../components/Footer.vue';
+import Nav from "../components/Nav.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
-<style>
-
+<style scoped>
+@import url(../assets/taskApp.css);
 </style>
 
 <!-- 
